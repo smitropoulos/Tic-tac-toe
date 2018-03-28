@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7D4F70E9206BF28C009A876C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F70E8206BF28C009A876C /* main.cpp */; };
+		7D4F70F4206BF6AC009A876C /* board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F70F2206BF6AC009A876C /* board.cpp */; };
+		7D4F70F7206BF9F2009A876C /* engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F70F5206BF9F2009A876C /* engine.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		7D4F70E5206BF28C009A876C /* Tic tac toe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tic tac toe"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4F70E8206BF28C009A876C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7D4F70F2206BF6AC009A876C /* board.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = board.cpp; sourceTree = "<group>"; };
+		7D4F70F3206BF6AC009A876C /* board.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = board.hpp; sourceTree = "<group>"; };
+		7D4F70F5206BF9F2009A876C /* engine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = engine.cpp; sourceTree = "<group>"; };
+		7D4F70F6206BF9F2009A876C /* engine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = engine.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				7D4F70E8206BF28C009A876C /* main.cpp */,
+				7D4F70F2206BF6AC009A876C /* board.cpp */,
+				7D4F70F5206BF9F2009A876C /* engine.cpp */,
+				7D4F70F6206BF9F2009A876C /* engine.hpp */,
+				7D4F70F3206BF6AC009A876C /* board.hpp */,
 			);
 			path = "Tic tac toe";
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4F70F4206BF6AC009A876C /* board.cpp in Sources */,
+				7D4F70F7206BF9F2009A876C /* engine.cpp in Sources */,
 				7D4F70E9206BF28C009A876C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
